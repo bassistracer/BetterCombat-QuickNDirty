@@ -1,5 +1,6 @@
-# BetterCombat-QuickNDirty
-A quick n' dirty, unofficial guide to adding your own Better Combat compat. Not recommended.
+# A quick n' dirty, unofficial guide to adding your own Better Combat compat. Not recommended.
+Seriously, if you encounter issues, don't go to Daedelus! This guide is unofficial.
+
 
 Note: It's generally recommended the mod maker does it themselves, as it helps prevent things like. Y'know. Spoilers. Or what-have-you. Seriously, ask them to make a compat before trying this to keep stability, as they know the ins-and-outs of every weapon.
 
