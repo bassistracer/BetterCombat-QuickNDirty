@@ -7,6 +7,8 @@ Note: It's generally recommended the mod maker does it themselves, and not playe
 Go to your Better Combat config, go to ```fallback_compatability.json```, and add the "regex" of the weapon to where it should be. You should be able to figure it out with context clues.
 The "regex" is more like the end of a weapon name. So if you wanted to add, say, all Excavators to a certain preset, you'd just simply put in excavators.
 
+So, basically, you'd see the regex that has ```"mace|hammer|flail",```, and you'd just do this: ```"mace|hammer|flail|excavator",```
+
 
 # Method 2:
 1. Get a data-pack loading mod such as kubejs or OpenLoader for simplicity. Paxi for Forge also works if you're already using Yung's stuff.
