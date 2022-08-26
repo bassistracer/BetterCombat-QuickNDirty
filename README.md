@@ -1,9 +1,14 @@
 # A quick n' dirty, unofficial guide to adding your own Better Combat compat. Not recommended.
 Seriously, if you encounter issues, don't go to Daedelus! This guide is unofficial.
 
+Note: It's generally recommended the mod maker does it themselves, and not players, as they know the ins-and-outs of every weapon, to help ensure mod stability. These are, by all means, experimental settings. Here be dragons!
 
-Note: It's generally recommended the mod maker does it themselves, as it helps prevent things like. Y'know. Spoilers. Or what-have-you. Seriously, ask them to make a compat before trying this to keep stability, as they know the ins-and-outs of every weapon.
+# Method 1:
+Go to your Better Combat config, go to fallback_compatability.json, and add the "regex" of the weapon to where it should be. You should be able to figure it out with context clues.
+The "regex" is more like the end of a weapon name. So if you wanted to add, say, all Excavators to a certain preset, you'd just simply put in excavators.
 
+
+# Method 2:
 1. Get a data-pack loading mod such as kubejs or OpenLoader for simplicity.
 2. Get the weapon tag from the mod you wanna implement. Can be done by getting its NBT data by pressing F3+H to enable NBT tooltips.
 3. Go through the usual step of making your average datapack, look it up if you don't know how to do that.
