@@ -32,6 +32,11 @@ If something like a spear, etc. is practically gutting through your body while y
 
 If a weapon just looks weird when you're swinging it, it could be due to its own custom weapon animations in its own mod.
 
+The attack speed attribute is retrieved from Vanilla Minecraft attributes.
+To change the speed of a weapon, you have two options:
+A) If it is a mod weapon, change the code of the mod to have a different speed
+B) Assign new attack speed attribute to the weapon via NBT
+
 Seriously, if you encounter any issues, just ask the mod developer to add Better Combat support instead!
 
 If there's a compat available for future versions but not, say, 1.18.2, at least as of right now you can just grab the weapon attributes from the latest .jar and throw 'em in your own datapack. Keep in mind that this may cause stability issues as Better Combat gets more advanced.
